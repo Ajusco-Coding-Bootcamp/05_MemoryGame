@@ -1,6 +1,7 @@
 # 05_MemoryGame
 
-![](https://tenor.com/Ljaz.gif)
+
+![gaming](https://64.media.tumblr.com/a354a37a064d24e8dc085b22955a43e5/tumblr_lsqlvv3Qs11r0ralmo1_r2_500.gifv)
  
 ---
 Índice
@@ -53,7 +54,7 @@ This applications should allow two users to play in-site web memory game, turnin
 
 - Set a .gitignore file to avoid the node_modules to be uploaded in GitHub.
 - Create the Release branch (to deliver and deploy) and the Development branch (to work on it daily).
-- Make a full responsive website consider at least 2 types of dispositives, cellphone and desktop.
+- Make a full responsive website consider at least 2 types of dispositives, ipad and desktop.
 - Follow up Semantic HTML rules, have header, navigation bar, main, sections, asides, footer, etc.
 - Create an Assets folder to store the img and sounds info for the game.
 - Document every Agile SDLC steps on ReadMe.md. During the planning step document a screenshot of your Backlog & the prioritized agenda per each one.
@@ -91,7 +92,7 @@ The _boilerplate_ should contains a file structure as a starting point like this
 * `README.md`: should explain how to download, install and run the application
   as well as an introduction to the application, its functionality and decisions about
   design they took.
-* `assets / memory.json`: Should be a JSON that contains the key: memory_game and the value is an Array of objects in which each object is a memory card that contains at least the properties of
+* `assets / memory.json`: Should be a JSON that contains the key: memory_game and the value is an Array of objects in which each object is a memory card that contains at least the properties of card_name, card_value and card_image.
 * `src / index.html`: this is the entry point to your application. This file
   it must contain to _markup_ (HTML) and include the necessary CSS and JavaScript for index.js module.
 * `src / app.js`: here you must implement the web application main functionality to manipulate the data coming from data.js
@@ -107,7 +108,7 @@ Follow the clues to create your own code, this clues can help you but you must c
 - [Some ideas](https://freefrontend.com/javascript-memory-games/)
 - [Other memory game article ](https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae)
 - [ Free code camp Memory Game tutorial](https://www.freecodecamp.org/news/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae/)
-- [ JSON ] (http://www.json.org/json-es.html)
+- [ JSON ](http://www.json.org/json-es.html)
 - [ JSON FORMAT VALIDATOR](https://jsonformatter.curiousconcept.com/)
 
 
